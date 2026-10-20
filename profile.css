@@ -1,0 +1,181 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;    
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    background-color: rgb(34, 49, 178);
+    z-index: 9999;
+}
+
+nav a:hover, nav a:visited, nav a:link{
+    color: rgb(255, 255, 255);
+}
+
+
+body{ 
+    padding-top: 98px;
+    background-color: rgb(49, 64, 202);
+    color: white;
+    opacity: 0.99;
+}
+
+body a:hover, body a:visited, body a:link {
+    color: rgb(255, 255, 255);
+}
+
+.upload{
+    width: 192px;
+    position: relative;
+    margin:auto;
+}
+
+.upload img{
+    width: 28px;
+    height: 28px;
+}
+
+#image{
+    border-radius: 50%;
+    border: 8px solid rgb(231, 229, 230);
+    width: 175px;
+    height: 175px;
+    color: white;
+}
+
+#post-image{
+    padding-top: 5px;
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+
+.content{
+    text-align: center;
+}
+
+.data{
+    background-color: rgb(103, 114, 214);
+    border: 2px solid rgb(204, 204, 204);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 0px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+    padding-bottom: 82px;
+    padding-left: 25px;
+}
+
+.info{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.col1{
+    width:40%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 16px;
+}
+
+.col2{
+    width:60%;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 60px;
+}
+
+label[for="pseudo"], 
+label[for="id"], 
+label[for="abonne"], 
+label[for="abonnement"]{
+    margin-left: 80px;
+}
+
+.abonnes, .desabonnes{
+    text-align: center;
+    padding-right: 20px;
+    margin-left: 60px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border: white;
+    font-size: 15px;
+    padding: 6px 40px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.no-message{
+    background-color: rgb(103, 114, 214);
+    padding: 20px;
+    margin-top: 0px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.display{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid rgb(204, 204, 204);
+    background-color: rgb(103, 114, 214);
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+#pfp{
+    border-radius: 50%;
+    border: 4px solid rgb(231, 229, 230);
+    width: 125px;
+    height: 125px;
+    color: white;
+}
+
+.pfp{
+    width:20%;
+    margin-left: 28px;
+}
+
+.user{
+    width:80%;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.separe{
+    padding-top: 8px;
+}
+
+label[for="profile-pseudo"],
+label[for="profile-id"]{
+    font-weight: bold;
+}
+
+label[for="profile-time"]{
+    opacity: 0.8;
+}
+
+.message{
+    padding-bottom: 20px;
+}
+
+#details{
+    font-size: 14px;
+}

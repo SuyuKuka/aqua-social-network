@@ -1,0 +1,30 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;    
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    background-color: rgb(34, 49, 178);
+    z-index: 9999;
+}
+
+nav a:hover, nav a:visited, nav a:link{
+    color: rgb(255, 255, 255);
+}
+
+
+body{ 
+    padding-top: 68px;
+    background-color: rgb(49, 64, 202);
+    color: white;
+    opacity: 0.99;
+}
+
+h2{
+    text-align: center;
+    padding-top: 22px;
+    color: red;
+}
