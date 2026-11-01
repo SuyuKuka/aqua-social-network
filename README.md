@@ -35,10 +35,11 @@ The platform offers a complete social networking experience where users can crea
 
 2. **Clone the repository:**
    Navigate to your XAMPP web directory (usually `C:\xampp\htdocs` on Windows) and clone the project:
-   ```bash
-   cd C:\xampp\htdocs
-   git clone https://github.com/SuyuKuka/aqua-social-network.git aqua
-   ```
+
+```bash
+cd C:\xampp\htdocs
+git clone https://github.com/SuyuKuka/aqua-social-network.git aqua    
+```
 
 3. **Database Setup:**
    * Open your web browser and go to `http://localhost/phpmyadmin/index.php`.
@@ -90,4 +91,4 @@ This project was developed collaboratively as a 2-person team:
 
 ## License
 
-Aqua is licensed under the AGPL 3.0 License — see [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE) for details.
+Aqua is licensed under the AGPL 3.0 License — see [LICENSE](LICENSE) for details.
