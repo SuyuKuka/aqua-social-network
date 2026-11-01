@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-        S'inscrire sur NOM_DU_RESEAU
+        S'inscrire sur Aqua
     </title>
     <link rel="stylesheet" href="register&login.css">
 </head>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <p>
-        Vous avez déjà un compte? <a href="login.php"> Connectez-vous ici</a>.
+            Vous avez déjà un compte? <a href="login.php"> Connectez-vous ici</a>.
         </p>
     </form> 
 </body>

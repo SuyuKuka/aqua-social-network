@@ -7,7 +7,7 @@ nav {
     text-align: center;    
     border-bottom: 1px solid white;
     padding-bottom: 15px;
-    background-color: rgb(34, 49, 178);
+    background-image: linear-gradient(rgb(34, 49, 178), rgb(56, 72, 211));
     z-index: 9999;
 }
 
@@ -15,12 +15,13 @@ nav a:hover, nav a:visited, nav a:link{
     color: rgb(255, 255, 255);
 }
 
-
 body{ 
     padding-top: 68px;
-    background-color: rgb(49, 64, 202);
+    background-image: linear-gradient(rgb(49, 64, 202),#a9c4fd );
     color: white;
     opacity: 0.99;
+    height: 100vh;
+    overflow: hidden;
 }
 
 h2{
