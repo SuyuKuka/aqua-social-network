@@ -1,7 +1,7 @@
 # Aqua
 
 ## About
-Aqua Social Network is a full-stack web application developed as a first-year university (L1) project. Built entirely from scratch using native PHP and MySQL without any frameworks. This project demonstrates a strong understanding of core web development concepts, relational database architecture, and fundamental security practices. 
+Aqua Social Network is a full-stack web application developed as a first-year university (L1) project. Built entirely from scratch using native PHP and MySQL without any frameworks.
 
 The platform offers a complete social networking experience where users can create secure accounts, customize their profiles, follow other members, and engage with diverse content through a personalized newsfeed, likes, and comments.
 
@@ -13,7 +13,7 @@ The platform offers a complete social networking experience where users can crea
 - **Database:** MySQL
 
 ## Key Features
-- **User Authentication:** Secure login and registration system using MD5 password hashing.
+- **User Authentication:** Login and registration system with password hashing (MD5).
 - **Personalized Newsfeed:** A dynamic home page displaying posts exclusively from accounts the user is subscribed to.
 - **Profile & Follow System:** Detailed user profiles showing follower/following counts, personal posts, and the ability to subscribe to other users.
 - **Content Publishing:** Users can create and share posts containing various media types (text, images, videos).
@@ -56,27 +56,27 @@ git clone https://github.com/SuyuKuka/aqua-social-network.git aqua
 
 ## Configuration
 
-Different availible account to avoid to register (including an admin account):
+Pre-configured test accounts are provided in the database to allow quick testing without manual registration:
 
 **Test Admin Account:**
 - **Email:** `admin@gmail.com`
-- **Password:** `Admin123`
+- **Password:** `(Pre-configured in database)`
 
 **Test User Account:**
 - **Email:** `notme@gmail.com`
-- **Password:** `NotMe123`
+- **Password:** `(Pre-configured in database)`
 
 **Test User Account:**
 - **Email:** `carapuce@gmail.com`
-- **Password:** `Carapuce123`
+- **Password:** `(Pre-configured in database)`
 
 **Test User Account:**
 - **Email:** `haru@gmail.com`
-- **Password:** `HaruRu123`
+- **Password:** `(Pre-configured in database)`
 
 **Test User Account:**
 - **Email:** `magimagi@gmail.com`
-- **Password:** `LocalMagician123`
+- **Password:** `(Pre-configured in database)`
 
 ## Team
 
