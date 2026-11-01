@@ -90,4 +90,4 @@ This project was developed collaboratively as a 2-person team:
 
 ## License
 
-Aqua is licensed under the AGPL 3.0 License — see LICENSE.md for details.
+Aqua is licensed under the AGPL 3.0 License — see [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE) for details.
