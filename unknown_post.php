@@ -1,10 +1,7 @@
 <?php
-session_start();
-require("fonction.php");
-
-echo "<nav>";
-require_once('nav.php');
-echo "</nav>" ;
+    session_start();
+    require("fonction.php");
+    require_once('nav.php');
 ?>
 
 <html lang="fr">
@@ -14,14 +11,13 @@ echo "</nav>" ;
     <link rel="stylesheet" href="unkown.css">
 </head>
 <body>
-
-<?php
-if(isset($_GET['up'])){
-    echo "<p><h2> Erreur: Publication inconnue. </h2></p>";
-} else {
-   header("Location: home.php");
-}
-?>
-
+    <?php
+        if(isset($_GET['up'])){
+            echo "<p><h2> Erreur: Publication inconnue. </h2></p>";
+        } else {
+            header("Location: home.php");
+            exit;
+        }
+    ?>
 </body>
 </html>

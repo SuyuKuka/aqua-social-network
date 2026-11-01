@@ -1,0 +1,152 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;    
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    background-image: linear-gradient(rgb(34, 49, 178), rgb(56, 72, 211));
+    z-index: 9999;
+}
+
+nav a:hover, nav a:visited, nav a:link {
+    color: rgb(255, 255, 255);
+}
+
+body{ 
+    padding-top: 98px;
+    background-image: linear-gradient(rgb(49, 64, 202),#a9c4fd );
+    color: white;
+    opacity: 0.99;
+    height: 100vh;
+}
+
+.upload{
+    width: 192px;
+    position: relative;
+    margin:auto;
+}
+
+.upload img{
+    width: 28px;
+    height: 28px;
+}
+
+#image{
+    border-radius: 50%;
+    border: 8px solid rgb(231, 229, 229);
+    width: 175px;
+    height: 175px;
+    color: white;
+}
+
+.upload .rightRound{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00B4FF;
+    width: 43px;
+    height: 42px;
+    line-height: 58px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}   
+
+.upload .leftRound{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: red;
+    width: 43px;
+    height: 42px;
+    line-height: 54px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.upload input{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+}
+
+#edit {
+    background-image: linear-gradient(rgb(60, 71, 170) ,rgb(113, 124, 219) ,rgb(149, 160, 255) );
+    border: 2px solid rgb(204, 204, 204);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+    padding-top: 25px;
+}
+
+label[for="pseudo"], 
+label[for="email"], 
+label[for="password"]{
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    outline: none;
+    padding: 10px 0;
+    width: 100%;
+}
+
+#pseudo::placeholder,
+#email::placeholder,
+#password::placeholder{
+    color: white;
+    opacity: 0.6;
+}
+
+.form-text.text-muted{
+    color: rgb(255, 0, 0);
+}
+
+.submit-button {
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+input[type="submit"] {
+    background-color:rgb(255, 255, 255);
+    color: black;
+    border: white;
+    font-size: 16px;
+    padding: 10px 60px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px lightgray;
+    transition: all 0.3s ease-in-out;
+}
+
+#test{
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}

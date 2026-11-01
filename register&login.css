@@ -1,7 +1,9 @@
 body{
-    background-color: rgb(49, 64, 202);
+    background-image: linear-gradient(rgb(49, 64, 202),#a9c4fd );
     color: white;
     opacity: 0.99;
+    height: 100vh;
+    overflow: hidden;
 }
 
 body a:hover, body a:visited, body a:link {
@@ -14,7 +16,7 @@ h1{
 }
 
 form {
-    background-color: rgb(103, 114, 214);
+    background-image: linear-gradient(rgb(60, 71, 170) ,rgb(97, 108, 207) ,rgb(149, 160, 255) );
     border: 2px solid rgb(204, 204, 204);
     padding: 20px;
     border-radius: 10px;

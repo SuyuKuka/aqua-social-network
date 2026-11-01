@@ -10,10 +10,11 @@
 <head>
     <meta charset="utf-8">
     <title>Accueil</title>
-    <link rel="stylesheet" href="homee.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-   <nav><?php require_once("nav.php"); ?></nav>
+   <?php require_once("nav.php"); ?>
+
     <div class="send">
         <form action="send.php" method="post" enctype="multipart/form-data" align="center">
         <br>
@@ -24,13 +25,15 @@
         <input type="submit" name="envoyer">
         </form>
     </div>
+
     <div class="content">
         <?php  
-        //Affichage du fil d'actualité:
-        echo "<h1>Fil d'actuailité:</h1>";
-        echo "<div class='display'>";
-        require_once('home_timeline.php');    
-        echo "</div>";
+            //Affichage du fil d'actualité:
+            echo "<h1>Fil d'actuailité:</h1>";
+
+            echo "<div class='display'>";
+                require_once('home_timeline.php');    
+            echo "</div>";
         ?>
     </div>
 </body>

@@ -7,18 +7,17 @@ nav {
     text-align: center;    
     border-bottom: 1px solid white;
     padding-bottom: 15px;
-    background-color: rgb(34, 49, 178);
+    background-image: linear-gradient(rgb(34, 49, 178), rgb(56, 72, 211));
     z-index: 9999;
 }
 
-nav a:hover, nav a:visited, nav a:link{
+nav a:hover, nav a:visited, nav a:link {
     color: rgb(255, 255, 255);
 }
 
-
 body{ 
     padding-top: 98px;
-    background-color: rgb(49, 64, 202);
+    background-image: linear-gradient(rgb(49, 64, 202), rgb(117, 129, 231),#a9c4fd );
     color: white;
     opacity: 0.99;
 }
@@ -59,7 +58,7 @@ body a:hover, body a:visited, body a:link {
 }
 
 .data{
-    background-color: rgb(103, 114, 214);
+    background-image: linear-gradient(rgb(60, 71, 170) ,rgb(108, 119, 216) ,rgb(149, 160, 255) );
     border: 2px solid rgb(204, 204, 204);
     padding: 20px;
     border-radius: 10px;
@@ -116,7 +115,6 @@ label[for="abonnement"]{
 
 
 .no-message{
-    background-color: rgb(103, 114, 214);
     padding: 20px;
     margin-top: 0px;
     max-width: 600px;
@@ -134,7 +132,7 @@ label[for="abonnement"]{
     width: 100%;
     max-width: 800px;
     border: 2px solid rgb(204, 204, 204);
-    background-color: rgb(103, 114, 214);
+    background-image: linear-gradient(rgb(82, 93, 197), rgb(105, 116, 221) ,rgb(134, 144, 235));
     border-radius: 10px;
     padding-top: 30px;
 }

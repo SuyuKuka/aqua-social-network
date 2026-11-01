@@ -19,6 +19,6 @@
     $default = "UPDATE users SET pfp = 'uploads/default.png' WHERE id = '$id'";
     mysqli_query($conn, $default);
 
-    header('Location: profile.php');
+    header('Location: edit.php');
     exit;
 ?>

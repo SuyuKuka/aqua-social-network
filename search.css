@@ -7,7 +7,7 @@ nav {
     text-align: center;    
     border-bottom: 1px solid white;
     padding-bottom: 15px;
-    background-color: rgb(34, 49, 178);
+    background-image: linear-gradient(rgb(34, 49, 178), rgb(56, 72, 211));
     z-index: 9999;
 }
 
@@ -15,14 +15,15 @@ nav a:hover, nav a:visited, nav a:link {
     color: rgb(255, 255, 255);
 }
 
+
 body{ 
     padding-top: 98px;
-    background-color: rgb(49, 64, 202);
+    background: rgb(57, 72, 212);
     color: white;
     opacity: 0.99;
 }
 
-body a:visited, body a:hover{  
+body a:visited, body a:hover, body a:link{  
     color: white;
 }
 
@@ -42,6 +43,12 @@ input[type="text"]{
     text-align: left;
 }
 
+input[type="text"]:hover {
+    box-shadow: 0 0 20px rgb(218, 218, 218);
+    transition: all 0.3s ease-in-out;
+    text-decoration-color: white;
+}
+
 #image{
     border-radius: 50%;
     border: 8px solid rgb(206, 206, 206);
@@ -51,7 +58,7 @@ input[type="text"]{
 }
 
 .result{
-    background-color: rgb(103, 114, 214);
+    background-image: linear-gradient(rgb(97, 108, 207) ,rgb(149, 160, 255) );
     border: 2px solid rgb(204, 204, 204);
     padding: 20px;
     border-radius: 10px;
