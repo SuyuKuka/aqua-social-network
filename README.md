@@ -1,7 +1,7 @@
 # Aqua
 
 ## About
-Aqua Social Network is a full-stack web application developed as a first-year university (L1) project. Built entirely from scratch using native PHP and MySQL without any frameworks. This project demonstrates a strong understanding of core web development concepts, relational database architecture, and fundamental security practices. 
+**Aqua** is a full-stack social media web application developed as a first-year university (L1) project. Built entirely from scratch using native PHP and MySQL without any frameworks.
 
 The platform offers a complete social networking experience where users can create secure accounts, customize their profiles, follow other members, and engage with diverse content through a personalized newsfeed, likes, and comments.
 
